@@ -1,0 +1,218 @@
+{
+  "Metadata": {
+    "title": "Batch 13 Analytics Platform | Faculty of Medicine & Surgery - University of Bahri",
+    "description": "Academic Intelligence & Analytics Platform for Batch 13 - Faculty of Medicine & Surgery, University of Bahri"
+  },
+  "Navbar": {
+    "brand": "Batch 13",
+    "brandSub": "Academic Analytics Platform",
+    "nav": {
+      "leaderboard": "Leaderboard",
+      "simulator": "GPA Simulator",
+      "analysis": "Analytics",
+      "login": "Login",
+      "register": "Register",
+      "myProfile": "My Academic Profile"
+    }
+  },
+  "LanguageSwitcher": {
+    "label": "Language",
+    "switchTo": "العربية"
+  },
+  "ThemeToggle": {
+    "label": "Theme",
+    "light": "Light Mode",
+    "dark": "Dark Mode",
+    "system": "System"
+  },
+  "Home": {
+    "hero": {
+      "welcome": "Welcome to the Batch 13 Analytics Platform",
+      "subtitle": "A smart academic intelligence platform for tracking performance and rankings for the Faculty of Medicine & Surgery - University of Bahri",
+      "ctaPrimary": "Explore Leaderboard",
+      "ctaSecondary": "GPA Simulator"
+    },
+    "features": {
+      "leaderboard": {
+        "title": "Leaderboard",
+        "desc": "A comprehensive student ranking by cumulative GPA and academic year performance"
+      },
+      "simulator": {
+        "title": "GPA Simulator",
+        "desc": "Simulate your corrected cumulative GPA for the upcoming clinical years"
+      },
+      "analysis": {
+        "title": "Analytics",
+        "desc": "In-depth analysis of academic performance and grade distribution"
+      }
+    }
+  },
+  "Leaderboard": {
+    "title": "Comprehensive Leaderboard",
+    "subtitle": "Student ranking by cumulative GPA and first-year performance. University IDs are automatically masked to protect privacy.",
+    "searchPlaceholder": "Search by name or university ID...",
+    "emptyState": "No data to display",
+    "count": "Students: {count}",
+    "sortedBy": "Sorted by: {metric}",
+    "privacyNote": "University IDs are masked server-side to protect privacy",
+    "filters": {
+      "all": "All Batch 13",
+      "group23": "Group 23 only",
+      "group24": "Group 24 only",
+      "legacy": "Transfer students"
+    },
+    "periods": {
+      "cgpa": "Overall CGPA",
+      "year": "Year 1 GPA",
+      "semester1": "Semester 1",
+      "semester2": "Semester 2",
+      "course": "Specific course",
+      "name": "A–Z"
+    },
+    "table": {
+      "maskedId": "University ID",
+      "name": "Name",
+      "group": "Group",
+      "cgpa": "CGPA",
+      "yearGpa": "Year 1 GPA",
+      "semester1": "Sem 1",
+      "semester2": "Sem 2",
+      "status": "Status"
+    }
+  },
+  "Footer": {
+    "rights": "All rights reserved © 2025 Faculty of Medicine & Surgery - University of Bahri"
+  },
+  "Auth": {
+    "register": {
+      "title": "Create Student Account",
+      "subtitle": "Create your account to access your private academic profile",
+      "studentTab": "Batch student",
+      "guestTab": "Guest student",
+      "studentId": "University ID",
+      "studentIdPlaceholder": "e.g. 1100305423",
+      "email": "Email address",
+      "emailPlaceholder": "you@example.com",
+      "password": "Password",
+      "passwordPlaceholder": "At least 6 characters",
+      "submit": "Create Account",
+      "switchToLogin": "Already have an account?",
+      "loginLink": "Sign in",
+      "registered": "Your account was created and you are signed in!",
+      "signedUpPleaseLogin": "Account created. Please sign in now.",
+      "guest": {
+        "title": "Guest Registration Request",
+        "subtitle": "For students who do not have a Batch 13 university ID",
+        "nameAr": "Name in Arabic",
+        "nameArPlaceholder": "محمد أحمد",
+        "nameEn": "Name in English",
+        "nameEnPlaceholder": "Mohammed Ahmed",
+        "email": "Email address",
+        "emailPlaceholder": "you@example.com",
+        "reason": "Reason for request (optional)",
+        "reasonPlaceholder": "Example: transferred from another cohort",
+        "submit": "Submit registration request",
+        "success": "Your request was submitted! The admin will review it shortly."
+      },
+      "errors": {
+        "STUDENT_NOT_FOUND": "This university ID is not registered in Batch 13",
+        "ALREADY_CLAIMED": "This account is already claimed. Sign in or contact an administrator",
+        "REGISTRATION_BLOCKED": "This student ID is currently blocked from registration. Contact the admin.",
+        "EMAIL_IN_USE": "This email address is already in use",
+        "CREATE_FAILED": "Could not create the account, please try again",
+        "UPDATE_FAILED": "Could not activate the account, please try again"
+      }
+    },
+    "login": {
+      "title": "Sign in",
+      "subtitle": "Sign in to your account to view your private academic profile",
+      "email": "Email address",
+      "emailPlaceholder": "you@example.com",
+      "password": "Password",
+      "passwordPlaceholder": "Password",
+      "submit": "Sign in",
+      "noAccount": "Don't have an account?",
+      "registerLink": "Register now",
+      "forgotPassword": "Forgot password?",
+      "errors": {
+        "INVALID_CREDENTIALS": "Invalid email or password",
+        "NETWORK_ERROR": "Connection failed, please check your internet"
+      }
+    },
+    "forgotPassword": {
+      "title": "Reset your password",
+      "subtitle": "Enter your email address and we'll send a recovery link",
+      "email": "Email address",
+      "submit": "Send recovery link",
+      "success": "Email sent! Check your inbox and open the link.",
+      "backToLogin": "Back to login"
+    }
+  },
+  "Student": {
+    "title": "My Academic Profile",
+    "id": "University ID",
+    "group": "Group",
+    "status": "Status",
+    "statusValues": {
+      "active": "Active",
+      "repeated": "Repeated",
+      "transferred": "Transferred",
+      "leave": "On Leave",
+      "frozen": "Frozen",
+      "suspended": "Suspended",
+      "withdrawn": "Withdrawn",
+      "dismissed": "Dismissed"
+    },
+    "cgpaLabel": "Cumulative GPA (CGPA)",
+    "percentile": "Percentile",
+    "overallRank": "Overall Rank",
+    "yearRank": "Cohort Rank",
+    "trajectoryTitle": "Academic Trajectory",
+    "trajectoryDesc": "GPA progression across semesters",
+    "gradesTitle": "Detailed Grades",
+    "course": "Course",
+    "grade": "Grade",
+    "note": "Note",
+    "creditHours": "Credits",
+    "numericScore": "Score",
+    "noGrades": "No grades to display yet.",
+    "semester": "Semester",
+    "semGpa": "Semester GPA",
+    "yearGpa": "Year GPA",
+    "cgpa": "CGPA",
+    "rank": "Rank",
+    "gpaTitle": "Cumulative Record",
+    "downloadReportCard": "Download Report Card",
+    "downloading": "Generating…",
+    "reportCardTitle": "Academic Result Slip",
+    "courseDistTitle": "Cohort Grade Distribution",
+    "courseDistDesc": "Grade distribution across the full cohort per course (number of students per band)",
+    "selectCourse": "Select a course",
+    "allCourses": "All Courses",
+    "notes": {
+      "Sup": "Supplementary exam — grade points capped at 2.0",
+      "Sub": "Substitute course",
+      "Inc": "Incomplete — excluded from GPA calculation",
+      "Cro": "Cross-registered (carried over with another semester)",
+      "Rtk": "Result re-evaluated",
+      "Rst": "Result reinstated"
+    },
+    "simulator": {
+      "title": "What-If GPA Simulator",
+      "subtitle": "Enter your expected GPAs for the upcoming clinical years to project your graduation CGPA using the Faculty weighting model",
+      "year": "Year",
+      "weight": "Weight",
+      "gpa": "GPA",
+      "completed": "Done",
+      "predicted": "expected",
+      "projectedCgpa": "Projected Graduation CGPA",
+      "currentCgpa": "Current CGPA",
+      "hint": "Enter values between 0.0 and 4.0 for each remaining clinical year",
+      "missing": "Fill all fields",
+      "clinicalNote": "Clinical years (4-6) carry the largest weight in the graduation CGPA (75%)"
+    }
+  },
+  "Announcement": {
+    "dismiss": "Dismiss announcement"
+  }
+}

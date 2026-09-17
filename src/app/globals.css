@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* ===== Royal Violet - Light Theme ===== */
+  /* Hex equivalents: background #FAF8FF | card #FFFFFF | primary #6D28D9
+     accent #8B5CF6 | foreground #1E1035 | border #EDE8F8 */
+  :root {
+    --background: 257 100% 99%; /* #FAF8FF - Lavender Frost */
+    --foreground: 263 54% 14%; /* #1E1035 */
+
+    --card: 0 0% 100%; /* #FFFFFF */
+    --card-foreground: 263 54% 14%; /* #1E1035 */
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 263 54% 14%;
+
+    --primary: 263 69% 50%; /* #6D28D9 - Royal Violet */
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 258 46% 66%; /* #8B5CF6 - Vibrant Violet */
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 257 60% 96%;
+    --muted-foreground: 262 20% 45%;
+
+    --accent: 258 46% 66%; /* #8B5CF6 - Accent */
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 259 38% 94%; /* #EDE8F8 */
+    --input: 259 38% 94%;
+    --ring: 263 69% 50%;
+
+    --radius: 0.75rem;
+  }
+
+  /* ===== Royal Violet - Dark Theme ===== */
+  /* Hex equivalents: background #0A0614 | card #130D24 | primary #8B5CF6
+     foreground #F5F3FF | border #261A45 */
+  .dark {
+    --background: 257 54% 5%; /* #0A0614 - Midnight Abyss */
+    --foreground: 255 100% 98%; /* #F5F3FF */
+
+    --card: 256 47% 10%; /* #130D24 */
+    --card-foreground: 255 100% 98%;
+
+    --popover: 256 47% 10%;
+    --popover-foreground: 255 100% 98%;
+
+    --primary: 258 46% 66%; /* #8B5CF6 - Electric Violet */
+    --primary-foreground: 263 69% 14%;
+
+    --secondary: 263 69% 50%; /* #6D28D9 */
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 256 40% 14%;
+    --muted-foreground: 258 30% 70%;
+
+    --accent: 258 46% 66%; /* #8B5CF6 - Electric Violet */
+    --accent-foreground: 263 69% 14%;
+
+    --destructive: 0 63% 50%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 257 45% 19%; /* #261A45 */
+    --input: 257 45% 19%;
+    --ring: 258 46% 66%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html {
+    font-family:
+      system-ui,
+      -apple-system,
+      "Segoe UI",
+      Roboto,
+      "Helvetica Neue",
+      Arial,
+      "Noto Sans",
+      "Noto Sans Arabic",
+      "Segoe UI Arabic",
+      Tahoma,
+      sans-serif;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* RTL Support */
+[dir="rtl"] {
+  text-align: right;
+}
+
+[dir="ltr"] {
+  text-align: left;
+}
